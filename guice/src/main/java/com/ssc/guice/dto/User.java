@@ -3,6 +3,7 @@ package com.ssc.guice.dto;
 public class User {
     private String id;
     private String userName;
+    private String age;
 
     public String getId() {
         return id;
@@ -18,5 +19,13 @@ public class User {
 
     public void setUserName(String userName) {
         this.userName = userName;
+    }
+
+    public String getAge() {
+        return age;
+    }
+
+    public void setAge(String age) {
+        this.age = age;
     }
 }
