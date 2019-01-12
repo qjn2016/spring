@@ -7,6 +7,6 @@ import java.util.logging.Logger;
 public class UserServiceIml implements UserService {
     @Override
     public void process() {
-        Logger.getLogger("").info("Hello World");
+        Logger.getLogger("").info("Hello qxf");
     }
 }
